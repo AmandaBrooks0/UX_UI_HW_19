@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="navigation">
+        <div class="inline-block" class="logo">
+            <img src="logo.png" alt="logo" width="45" height="25">
+
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li class="inline-block">About</li>
+                <li class="inline-block">Skills</li>
+                <li class="inline-block">Work</li>
+                <li class="inline-block">Contact</li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+<!--  ***Jquery***  -->
+
+
+
+
+    <div>
+        <button id="button1">Click here!</button>
+    
+    </div>
+
+    <div id="box">
+        <p> </p>
+    </div>
+
+
+
+
+<!--  ***Jquery***  -->
+
+
+
+     <!--  Hero Image section  -->
+
+    <section class="heroImg">
+        <div class="content">
+            <div class="flex1">
+              <p>
+                Hi my name is Amanda, I'm a UX designer!
+              </p>
+              <p>
+                Who's up for a challenge? Whether it's problem solving 
+                or creating a masterpiece, let's work together to design something great!
+              </p>
+            </div>
+            <img class="flex1" src="photo of me.png" alt="Image" width="250px">
+            <button class="flex1" type="button">Download Resume!</button>
+            
+        </div>
+
+    </section>
+
+
+
+    
+     <!--  My Work section coded using CSS flex -->
+
+     <section class="myWork">
+        <h1>My Work</h1>
+
+        <div class="workGrid">
+            
+            <div class="words">
+                <h4>
+                    The Canadian Space Agency
+                </h4>
+
+                <p>
+                    A government website redesign.
+                </p>
+
+                <button class="button">
+                    Case Study
+                </button>
+            </div>
+
+            <div class="i">
+                <img src="csa desk.png" alt="case study 1" id="study1">
+            </div>
+        </div>
+
+
+
+        <div class="workGrid">
+            
+            <div class="words">
+                <h4>
+                    The New Mom Project
+                </h4>
+
+                <p>
+                    A Non Profit Organization website redesign.
+                </p>
+
+                <button class="button">
+                    Case Study
+                </button>
+                
+            </div>
+
+            <div class="i">
+                <img src="nmp desk light bor.png" alt="case study 2" id="study2">
+            </div>
+
+        </div>
+
+
+
+        <div class="workGrid">
+            
+            <div class="words">
+                <h4>
+                    Yobo: You Only Budget Once
+                </h4>
+
+                <p>
+                    Designing a travel budget mobile app
+                </p>
+
+                <button class="button">
+                    Case Study
+                </button>
+            </div>
+
+            <div class="i">
+                <img src="yobo 4.png" alt="case study 3" id="study3">
+            </div>
+        </div>
+
+        <h3 id="vap">
+            View All Projects
+        </h3>
+
+
+
+
+         
+
+ 
+ 
+     </section>
+     <hr>
+ 
+
+
+
+     <!--  My UX Skills section coded using CSS flex -->
+    
+    <section class="myskills">
+    <h1>My Skills </h1>
+
+      <div class="flex-container">
+        <div>
+          <img src="user research.png" >
+            <h3>
+                User Research
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Arcu dolor leo justo tortor.
+            </p>
+
+        </div>
+
+        <div>
+          <img src="usability testing.png">
+            <h3>
+            Usability Testing
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Arcu dolor leo justo tortor.
+            </p>
+        </div>
+
+        <div>
+          <img src="wireframing.png">
+            <h3>
+                Wire-Framing
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Arcu dolor leo justo tortor.
+            </p>
+        </div>
+
+        <div>
+          <img src="responsive web design.png">
+            <h3>
+                Responsive Web Design
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Arcu dolor leo justo tortor.
+           </p>
+        </div>
+
+    </div> 
+
+        
+    </section>
+
+
+
+     <!--  Footer  -->
+
+    <footer>
+        <ul>
+            <li class="inline-block">About</li>
+            <li class="inline-block">Skills</li>
+            <li class="inline-block">Work</li>
+            <li class="inline-block">Contact</li>
+        </ul>
+    </footer>
+
+</body>
+
+
+
+
+<!--  ***Jquery***  -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        $("#button1").click(function() {
+
+            $("#box").animate({
+                left: '600px'
+            });
+       
+
+        });
+
+        
+
+ });
+   
+</script>
+
+</html>
